@@ -10,15 +10,25 @@ Package used:
 
 Tree file
 .django-project/
+
 .....features/
+
 .........steps/
+
 .............test_file.py     // test script
+
 .........environment.py       // setup environment
+
 .........test_file.feature    // Feature description
+
 .....test/
+
 .........\_\_init\_\_.py
+
 .........factories/
+
 .............\_\_init\_\_.py
+
 
 Test:
 python manage.py behave

@@ -7,6 +7,7 @@ from authentication.serializers import AccountSerializer
 
 from django.contrib.auth import authenticate, login
 
+import json
 
 class AccountViewSet(viewsets.ModelViewSet):
     lookup_field = 'username'
